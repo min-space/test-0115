@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>에스쁘아</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon-16x16.png">
+
+    <!-- font -->
+    <link rel="stylesheet" href="css/font.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div id="wrap">
+
+        <header id="header">
+            <div class="inner">
+                <h1><a href="index.html"><img src="images/logo_b.png" alt="espoir"></a></h1>
+
+                <nav>
+                    <ul class="gnb">
+                        <li><a href="#">about</a>
+                            <ul class="depth2">
+                                <li><a href="#">story</a></li>
+                                <li><a href="#">campaign</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">product</a>
+                            <ul class="depth2">
+                                <li><a href="#">new &amp; best</a></li>
+                                <li><a href="#">face</a></li>
+                                <li><a href="#">lip</a></li>
+                                <li><a href="#">eye</a></li>
+                                <li><a href="#">sun</a></li>
+                                <li><a href="#">other</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">service</a>
+                            <ul class="depth2">
+                                <li><a href="#">reservation</a></li>
+                                <li><a href="#">review</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">store</a>
+                            <ul class="depth2">
+                                <li><a href="#">creation</a></li>
+                                <li><a href="#">notice</a></li>
+                                <li><a href="#">q &amp; a</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <button class="ham">메뉴보기</button>
+
+                    <div class="mgnb_wrap">
+                        <ul class="mgnb">
+                            <li><a href="#">about</a>
+                                <ul class="mdepth2">
+                                    <li><a href="#">story</a></li>
+                                    <li><a href="#">campaign</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">product</a>
+                                <ul class="mdepth2">
+                                    <li><a href="#">new &amp; best</a></li>
+                                    <li><a href="#">face</a></li>
+                                    <li><a href="#">lip</a></li>
+                                    <li><a href="#">eye</a></li>
+                                    <li><a href="#">sun</a></li>
+                                    <li><a href="#">other</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">service</a>
+                                <ul class="mdepth2">
+                                    <li><a href="#">reservation</a></li>
+                                    <li><a href="#">review</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">store</a>
+                                <ul class="mdepth2">
+                                    <li><a href="#">creation</a></li>
+                                    <li><a href="#">notice</a></li>
+                                    <li><a href="#">q &amp; a</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <button class="mgnb_close">메뉴닫기</button>
+                    </div><!-- mgnb_wrap -->
+                </nav>
+
+                <!-- <button class="btn_sch">검색창열기</button> -->
+            </div><!-- inner -->
+        </header><!-- header -->
+
+
+        <div class="search">
+            <form>
+                <fieldset>
+                    <legend>검색영역</legend>
+                    <div class="search_area">
+                        <input type="text" placeholder="검색어를 입력해 주세요">
+                        <input type="submit" value="검색">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+
+
+        <main id="main">
+
+            <section class="banner">
+                <div class="swiper banner_list">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide banner1">
+                            <div class="banner_txt">
+                                <p>속부터 차오르는 탱.글.속.광</p>
+                                <h2>톤페어링 리퀴드 치크</h2>
+                                <div class="btn_more"><a href="#">show more</a></div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide banner2">
+                            <div class="banner_txt">
+                                <p>가을 햇살 아래 달달하게 무르익은 단감 룩</p>
+                                <h2>아이 코어 팔레트</h2>
+                                <div class="btn_more"><a href="#">show more</a></div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide banner3">
+                            <div class="banner_txt">
+                                <p>바르는 순간 피부 속부터 맑게 빛나는</p>
+                                <h2>비글로우 볼륨 쿠션</h2>
+                                <div class="btn_more"><a href="#">show more</a></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+
+            <section class="prd">
+                <h2>New & Best</h2>
+
+                <div class="swiper prd_list">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <a href="#">
+                                <img src="images/prd_01.png" alt="제품1">
+                                <span>노웨어 립스틱 바밍글로우</span>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#">
+                                <img src="images/prd_02.png" alt="제품2">
+                                <span>비글로우 볼륨 쿠션</span>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#">
+                                <img src="images/prd_03.png" alt="제품3">
+                                <span>톤페어링 하이라이터</span>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#">
+                                <img src="images/prd_04.png" alt="제품4">
+                                <span>아이 코어 팔레트</span>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#">
+                                <img src="images/prd_05.png" alt="제품5">
+                                <span>프로테일러 비벨벳 커버 쿠션</span>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#">
+                                <img src="images/prd_06.png" alt="제품6">
+                                <span>톤페어링 리퀴드 치크</span>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#">
+                                <img src="images/prd_07.png" alt="제품7">
+                                <span>노머징 브러쉬 라이너</span>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#">
+                                <img src="images/prd_08.png" alt="제품8">
+                                <span>비글로우 스틱 파운데이션</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+
+            <section class="store">
+                <h2>creation store</h2>
+
+                <div class="inner" data-aos="flip-up">
+                    <div class="store_video">
+                        <video src="images/store.mp4" autoplay muted loop playsinline></video>
+                    </div>
+                    <div class="store_txt">
+                        <img src="images/creators.png" alt="크리에이터 케이트와 지니 사진">
+                        <h3>customized makeup service</h3>
+                        <p>오감을 깨우는 에스쁘아 크리에이터의 작업실에서 <br>
+                            여러분의 숨겨진 메이크업 크리에이티브를 펼쳐보세요.</p>
+                        <div class="btn_more"><a href="#">view more</a></div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="sns">
+                <div class="inner">
+                    <div class="sns_txt" data-aos="fade-up">
+                        <h2>follow</h2>
+                        <p>독보적이고 생동감있는 <br>
+                            프리미엄 메이크업 전문 브랜드<br>
+                            Expect better you, espoir
+                        </p>
+                    </div>
+
+                    <div class="sns_list">
+                        <div>
+                            <div class="sns_item" data-aos="fade-up">
+                                <a href="#"><img src="images/sns_01.jpg" alt="인스타1"></a>
+                                <dl>
+                                    <dt>올영세일</dt>
+                                    <dd>평소 픽해두었던 에스쁘아 제품을
+                                        올영세일 한정 특별가에 만나요</dd>
+                                </dl>
+                            </div>
+                            <div class="sns_item" data-aos="fade-up">
+                                <a href="#"><img src="images/sns_02.jpg" alt="인스타2"></a>
+                                <dl>
+                                    <dt>비벨벳 벚꽃에디션</dt>
+                                    <dd>윈터의 벚꽃에디션룩을
+                                        디지털 굿즈로 만들었어요!</dd>
+                                </dl>
+                            </div>
+                            <div class="sns_item" data-aos="fade-up">
+                                <a href="#"><img src="images/sns_03.jpg" alt="인스타3"></a>
+                                <dl>
+                                    <dt>에스쁘아 비글로우 골든아워에디션</dt>
+                                    <dd>에스쁘아 대표 쿠션 비글로우에 컨실러, 픽서까지 생생 윤기 피부를 만들어줄 극강 꿀조합</dd>
+                                </dl>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="sns_item" data-aos="fade-up">
+                                <a href="#"><img src="images/sns_04.jpg" alt="인스타4"></a>
+                                <dl>
+                                    <dt>아주 특별한 체험</dt>
+                                    <dd>에스쁘아연남에서 직접 베이스컬러부터 글리터까지 모두 내 취향으로 골라 만드는 글로우 &amp;
+                                        play를 소개해드려요.</dd>
+                                </dl>
+                            </div>
+                            <div class="sns_item" data-aos="fade-up">
+                                <a href="#"><img src="images/sns_05.jpg" alt="인스타5"></a>
+                                <dl>
+                                    <dt>비 내추럴 그린 블러썸</dt>
+                                    <dd>티 안나게, 피부가 좋아보이는
+                                        반질광 쿠션</dd>
+                                </dl>
+                            </div>
+                            <div class="sns_item" data-aos="fade-up">
+                                <a href="#"><img src="images/sns_06.jpg" alt="인스타6"></a>
+                                <dl>
+                                    <dt>모비쉬 벨벳 틴트</dt>
+                                    <dd>부드러운 벨벳 사이로 스며드는 모비쉬 스펙트럼</dd>
+                                </dl>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="sns_item" data-aos="fade-up">
+                                <a href="#"><img src="images/sns_07.jpg" alt="인스타7"></a>
+                                <dl>
+                                    <dt>에스쁘아 연남 팝업 방문 EVENT</dt>
+                                    <dd>팝업 방문만 해도 선착순으로 미니백을 증정하니
+                                        에스쁘아 연남을 찾아보세요! </dd>
+                                </dl>
+                            </div>
+                            <div class="sns_item" data-aos="fade-up">
+                                <a href="#"><img src="images/sns_08.jpg" alt="인스타8"></a>
+                                <dl>
+                                    <dt>에스쁘아 대표 선크림 워터스플래쉬</dt>
+                                    <dd>기존의 자연스러운 톤업은 그대로 유지한 채, 세라마이드 와 펩타이드를 채워넣어 물방울 터지듯 속부터 촉촉하게 차오른답니다.</dd>
+                                </dl>
+                            </div>
+                            <div class="sns_item" data-aos="fade-up">
+                                <a href="#"><img src="images/sns_09.jpg" alt="인스타9"></a>
+                                <dl>
+                                    <dt>프로 테일러 비 글로우 뉴클래스 쿠션</dt>
+                                    <dd>클래스가 다른 맑은글로우를
+                                        지금 올리브영에서 특별한 기획세트로 만나보세요.</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div><!-- sns_list -->
+                </div><!-- inner -->
+
+                <div class="btn_more" data-aos="fade-up"><a href="#">view more</a></div>
+            </section>
+
+        </main>
+
+
+
+        <footer id="footer">
+            <div class="inner">
+                <div class="footer_top">
+                    <ul class="footer_menu">
+                        <li><a href="sub/sub.html">비회원주문조회</a></li>
+                        <li><a href="sub/sub.html">매장찾기</a></li>
+                        <li><a href="sub/sub.html">브랜드소개</a></li>
+                        <li><a href="sub/sub.html">멤버십</a></li>
+                        <li><a href="sub/sub.html">사이트맵</a></li>
+                    </ul>
+
+                    <a href="#" class="service">
+                        <strong>PERSONAL CONSULTING SERVICE</strong>
+                        <span>에스쁘아 크리에이션 스토어에서 <br>
+                            전문 크리에이터가 직접 도와드리는 <br>
+                            맞춤 메이크업 서비스입니다.</span>
+                    </a>
+
+                    <p class="call">고객상담센터<br>
+                        <strong>080-805-5555</strong>
+                    </p>
+
+                    <ul class="footer_sns">
+                        <li><a href="#"><img src="images/ico_insta.png" alt="인스타그램"></a></li>
+                        <li><a href="#"><img src="images/ico_facebook.png" alt="페이스북"></a></li>
+                        <li><a href="#"><img src="images/ico_twitter.png" alt="트위터"></a></li>
+                        <li><a href="#"><img src="images/ico_kakao.png" alt="카카오"></a></li>
+                        <li><a href="#"><img src="images/ico_blog.png" alt="네이버블로그"></a></li>
+                        <li><a href="#"><img src="images/ico_mail.png" alt="이메일"></a></li>
+                    </ul>
+                </div>
+
+                <div class="footer_bottom">
+                    <ul class="footer_link">
+                        <li><a href="sub/sub.html">개인정보처리방침</a></li>
+                        <li><a href="sub/sub.html">서비스이용약관</a></li>
+                        <li><a href="sub/sub.html">이메일무단수집거부</a></li>
+                        <li><a href="sub/sub.html">영상기기관리방침</a></li>
+                    </ul>
+                    <address>(주)에스쁘아 대표이사: 이연정 본사: 서울특별시 용산구 한강대로 100 (한강로2가) 6층<br>
+                        사업자번호: 104-86-58598 통신판매업신고번호: 제 2017-서울용산-1293호<br>
+                        개인정보보호책임자: 이연정 고객상담: 080-619-8888 이메일: espoirmall@espoir.com</address>
+                    <p class="copy">Copyright &copy; 2023 espoir. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+    </div><!-- wrap -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
